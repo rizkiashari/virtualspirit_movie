@@ -1,8 +1,7 @@
-import {ChangeEventHandler} from "react";
-
 export interface TextFieldProps {
-    value?: string;
-    onChange: (e: ChangeEventHandler<HTMLInputElement>) => void;
-    placeholder: string;
-    type: string;
+  value?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  onChange: any;
+  placeholder: string;
+  type: string;
 }
